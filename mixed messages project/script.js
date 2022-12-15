@@ -5,9 +5,9 @@ function generateRandomNumber(num) {
 }
 
 const pickMyTeam = {
-    teamHome: ['Las Vegas', 'Eaton', 'San Jose', 'St. Luke'],
-    teamName: ['Raiders', 'Silly Nannies', '49ers', 'Rockstompers'],
-    teamMoto: ['Just Win Baby', 'Slap me silly and call me a nannie', 'Faithful To The Bay', 'Lets go Strong men, lets go']
+    teamHome: ['Las Vegas', 'Eaton', 'San Jose', 'St. Luke', 'London', 'Corner of 7th and 11th', 'State Pen', 'Wrong Side of the Tracks'],
+    teamName: ['Raiders', 'Silly Nannies', '49ers', 'Rockstompers', 'Originals', 'Backward Caps', 'Insert Names', 'Pen State', 'Wu Tang'],
+    teamMoto: ['Just Win Baby', 'Slap me silly and call me a nannie', 'Faithful To The Bay', 'Lets go Strong men, lets go', 'Books over Crooks', 'Get Up On A Tea', 'Bet On Us!', 'Nothing to it but to do it']
 }
 
 //store the team in the array
@@ -30,3 +30,4 @@ for(let prop in pickMyTeam) {
 
 }
 
+console.log(myTeam);
