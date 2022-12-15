@@ -27,6 +27,6 @@ for(let prop in pickMyTeam) {
         break
         default: myTeam.push('There is not enough info.')
     }
-
 }
 
+console.log(myTeam);
